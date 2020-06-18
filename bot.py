@@ -8,7 +8,7 @@ from assignments import assignment as countAssignment
 import quickstart
 
 updater = Updater(
-    token='token', use_context=True)
+    token='', use_context=True)
 
 dispatcher = updater.dispatcher
 
