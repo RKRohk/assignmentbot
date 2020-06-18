@@ -1,0 +1,6 @@
+/assignments
+.env
+token.pickle
+/__pycache__
+/venv
+credentials.json
