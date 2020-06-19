@@ -42,7 +42,7 @@ def checkmail():
     service = build('gmail', 'v1', credentials=creds)
 
     try:
-        response = service.users().messages().list(userId='me',q='after:16/06/2020 filename:pdf').execute()
+        response = service.users().messages().list(userId='me',q='after:16/06/2020 filename:pdf to:1806505@kiit.ac.in').execute()
         messages = []
         if 'messages' in response:
             messages.extend(response['messages'])
